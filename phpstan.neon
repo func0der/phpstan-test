@@ -6,5 +6,4 @@ parameters:
   scanFiles:
     - third_party/SomeLib/src/SomeInterface.php
   paths:
-    - bin
     - src
