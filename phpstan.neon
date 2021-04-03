@@ -1,0 +1,10 @@
+includes:
+parameters:
+  level: max
+  scanDirectories:
+    - third_party/SomeLib/src
+  scanFiles:
+    - third_party/SomeLib/src/SomeInterface.php
+  paths:
+    - bin
+    - src

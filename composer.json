@@ -1,0 +1,16 @@
+{
+  "name": "func0der/phpstan-test",
+  "description": "Re-creating a phpstan issue",
+  "require": {
+    "php": ">=7.4",
+    "phpstan/phpstan": "^0.12.83"
+  },
+  "autoload": {
+    "psr-4": {
+      "Func0der\\PhpStanTest\\": "src"
+    }
+  },
+  "scripts": {
+    "analyse": "phpstan analyse"
+  }
+}
