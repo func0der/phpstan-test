@@ -1,0 +1,16 @@
+{
+  "name": "some/lib",
+  "description": "Some other lib",
+  "require": {
+    "php": ">=7.4",
+    "jms/serializer": "^3.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "Some\\Lib\\": "src"
+    }
+  },
+  "scripts": {
+    "analyse": "phpstan analyse"
+  }
+}
